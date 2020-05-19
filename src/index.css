@@ -11,3 +11,30 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h2 {
+  text-align: center;
+}
+
+.example {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem auto;
+  padding: 1rem 0;
+  width: 50%;
+  font-size: 2rem;
+  border: 1px solid #282c34;
+  border-radius: 4px;
+  box-shadow: 0px 4px 16px rgb(200, 200, 200);
+}
+
+.example button {
+  background: none;
+  border: 1px solid #48a9dc;
+  color: #48a9dc;
+  border-radius: 4px;
+  font-size: 1.5rem;
+  padding: 0 1rem;
+  margin: 0.5rem;
+}
